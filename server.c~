@@ -84,7 +84,7 @@ int main(int argc, char **argv)
 			break;
 		}
 #else
-		thread_function((void*)(intptr_t)client_id);
+		thread_function((void*)client_id);
 #endif			
 	}
 
